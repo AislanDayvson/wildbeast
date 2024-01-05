@@ -104,6 +104,10 @@ p{
     margin: 0 auto;
 }
 
+.img-3{
+    margin: 0 auto;
+}
+
 .atributos li{
     color: white;
     font-family: Courier, monospace;
@@ -114,4 +118,10 @@ p{
 
 .atributos li:last-child{
     border-bottom: 0px;
+}
+
+@media (max-width: 600px){
+    .conteudo{
+        grid-template-columns: auto;
+    }
 }
